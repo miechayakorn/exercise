@@ -1,0 +1,1 @@
+ansible -i "192.168.32.131,192.168.32.129," all -m get_url -a 'url="https://st.sit.kmutt.ac.th/webmail/src/login.php" dest="/root"' -k

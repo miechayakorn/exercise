@@ -1,0 +1,11 @@
+---
+- name: test downlad 2
+  hosts: server
+  gather_facts: false
+  remote_user: root
+  
+  tasks:
+   - name: test download
+     get_url:
+      url: "https://st.sit.kmutt.ac.th/webmail/src/login.php"
+      dest: /root/login2.php

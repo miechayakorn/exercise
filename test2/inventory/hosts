@@ -1,0 +1,4 @@
+[server]
+192.168.32.131 ansible_user=root ansible_password=redhat
+192.168.32.129 ansible_user=root ansible_password=redhat
+
